@@ -1,0 +1,39 @@
+case_id,condition,truth,omitted,missed,raw,allergy_section,my_missed,grader_right
+1357_abbrev,abbrev,ciprofloxacin;meperidine;sulfa,1,meperidine,"```json {""allergies"": [""Cipro"", ""Bactrim"", ""Bactrim"", ""Demetrol""]} ```","Cipro, Bactrim, Bactrim, and Demerol.",,0
+3003_abbrev,abbrev,aspirin;statin,1,statin,"```json {""allergies"": [""ASA"", ""Altace""]} ```",", ASA and Altace caused cough, Lipitor and Pravachol at higher doses caused myalgias, Zetia caused myalgias.",statin,1
+3047_abbrev,abbrev,penicillin,0,,"```json {""allergies"": [""PCN""]} ```",", PCN.",,1
+117_abbrev,abbrev,sulfa,0,,"{""allergies"": [""Bactrim""]} ",Bactrim.,,1
+3405_abbrev,abbrev,sulfa,0,,"```json {""allergies"": [""Bactrim drugs""]} ```",Bactrim drugs.,,1
+3003_base,base,aspirin;statin,1,statin,"```json {""allergies"": [""Aspirin"", ""Altace""]} ```",", Aspirin and Altace caused cough, Lipitor and Pravachol at higher doses caused myalgias, Zetia caused myalgias.",statin,1
+1357_base,base,ciprofloxacin;meperidine;sulfa,1,meperidine,"```json {""allergies"": [""Cipro"", ""sulfa"", ""Bactrim"", ""Demetrol""]} ```","Cipro, sulfa, Bactrim, and Demerol.",,0
+1478_base,base,aspirin,1,aspirin,* aspirin ,"Patient admits allergies to aspirin resulting in GI upset, disorientation.",not JSON,0
+1433_base,base,aspirin,0,,"{""allergies"": [""Aspirin""]}",", Aspirin.",,1
+1370_base,base,sulfa,0,,"```json {""allergies"": [""Lamicil"", ""Equagesic"", ""Bactrim"", ""Dilatrate"", ""cyclobenzaprine""]} ```",", Lamisil, Equagesic, Bactrim, Dilatrate, cyclobenzaprine.",,1
+4179_base,base,penicillin,0,,"{""allergies"": [""Penicillin""]} ",", Penicillin.",,1
+1478_ctrl_header_case,ctrl_header_case,aspirin,1,aspirin,* aspirin ,"Patient admits allergies to aspirin resulting in GI upset, disorientation.",not JSON,0
+1357_ctrl_header_case,ctrl_header_case,ciprofloxacin;meperidine;sulfa,1,meperidine,"```json {""allergies"": [""Cipro"", ""sulfa"", ""Bactrim"", ""Demetrol""]} ```","Cipro, sulfa, Bactrim, and Demerol.",,0
+3271_ctrl_header_case,ctrl_header_case,morphine;nsaid;sulfa,1,nsaid,"```json {""allergies"": [""sulfonamide"", ""morphine"", ""tramadol""]} ```",", HE DOES HAVE MEDICATION INTOLERANCES TO SULFA DRUGS (HEADACHE), MORPHINE (NAUSEA AND VOMITING), AND TORADOL (ULCER).",nsaid,1
+1433_ctrl_header_case,ctrl_header_case,aspirin,0,,"{""allergies"": [""Aspirin""]}",", Aspirin.",,1
+1370_ctrl_header_case,ctrl_header_case,sulfa,0,,"```json {""allergies"": [""Lamicil"", ""Equagesic"", ""Bactrim"", ""Dilatrate"", ""cyclobenzaprine""]} ```",", Lamisil, Equagesic, Bactrim, Dilatrate, cyclobenzaprine.",,1
+4179_ctrl_header_case,ctrl_header_case,penicillin,0,,"{""allergies"": [""Penicillin""]} ",", Penicillin.",,1
+3003_hpi_sentence,hpi_sentence,aspirin;statin,1,statin,"```json {""allergies"": [""aspirin"", ""altace""]} ```","[sentence] The patient has a known allergy to aspirin and altace caused cough, lipitor and pravachol at higher doses caused myalgias, zetia caused myalgias.",,1
+2119_hpi_sentence,hpi_sentence,diphenhydramine;erythromycin;nsaid,0,,"```json {   ""allergies"": [     ""toradol"",     ""robaxin"",     ""midrin"",     ""darvocet"",     ""naprosyn"",     ""benadryl"",     ""soma"",     ""erythromycin"",     ""multiple medications""   ] } ```","[sentence] The patient has a known allergy to multiple.  all over-the-counter medications.  toradol, robaxin, midrin, darvocet, naprosyn, benadryl, soma, and erythromycin.",,1
+3424_hpi_sentence,hpi_sentence,meperidine;sulfa,0,,"```json {""allergies"": [""demerol"", ""sulfa""]} ```","[sentence] The patient has a known allergy to demerol, sulfa.",,1
+1370_hpi_sentence,hpi_sentence,sulfa,0,,"```json {""allergies"": [""lamisil"", ""equagesic"", ""bactrim"", ""dilatrate"", ""cyclobenzaprine""]} ```","[sentence] The patient has a known allergy to lamisil, equagesic, bactrim, dilatrate, cyclobenzaprine.",,1
+172_pos0,pos0,prochlorperazine,1,prochlorperazine,"```json {""allergies"": [""Allegra""]} ```","Compazine and Allegra., CHIEF COMPLAINT:,  The patient comes for bladder instillation for chronic interstitial cystitis.",prochlorperazine,1
+2167_pos0,pos0,nabumetone,1,nabumetone,"```json {   ""allergies"": [     ""RELFAX""   ] } ```","HE IS ALLERGIC TO RELAFEN (ITCHING)., HISTORY OF PRESENT ILLNESS:,  Patient is a 50-year-old white male complaining of continued lower back pain.  Patient has a history of chronic back pain, dating back to an accident that he states he suffered two years ago.  He states he helped a friend unload a m",,1
+1899_pos0,pos0,cephalosporin,1,cephalosporin,"{""allergies"": []} ","Cefzil., CHIEF COMPLAINT:,  Well-child check and school physical.",cephalosporin,1
+3271_pos0,pos0,morphine;nsaid;sulfa,0,,"```json {""allergies"": [""sulfa drugs"", ""morphine"", ""toradol""]} ```",", HE DOES HAVE MEDICATION INTOLERANCES TO SULFA DRUGS (HEADACHE), MORPHINE (NAUSEA AND VOMITING), AND TORADOL (ULCER)., HISTORY OF PRESENT ILLNESS:,  Patient is a 76-year-old white male who presents with his wife stating that he was stung by a bee on his right hand, left hand, and right knee at appr",,1
+3175_pos0,pos0,penicillin,0,,"{""allergies"": [""penicillin"", ""seafood""]} ",", Include penicillin.  She is also allergic seafood; crab and mobster., REASON FOR CONSULT: , Genetic counseling.",,1
+4182_pos0,pos0,morphine,0,,"```json {""allergies"": [""morphine""]} ```",", MORPHINE., REASON FOR CONSULTATION: , Post-surgical medical management.",,1
+1357_pos100,pos100,ciprofloxacin;meperidine;sulfa,1,meperidine,"```json {""allergies"": [""Cipro"", ""sulfa"", ""Bactrim"", ""Demetrol""]} ```","Cipro, sulfa, Bactrim, and Demerol.",,0
+1478_pos100,pos100,aspirin,1,aspirin,* aspirin ,"Patient admits allergies to aspirin resulting in GI upset, disorientation.",not JSON,0
+1456_pos100,pos100,hydrocodone,0,,"```json {""allergies"": [""Vicodin""]} ```",",Vicodin.",,1
+1370_pos100,pos100,sulfa,0,,"```json {""allergies"": [""Lamicil"", ""Equagesic"", ""Bactrim"", ""Dilatrate"", ""cyclobenzaprine""]} ```",", Lamisil, Equagesic, Bactrim, Dilatrate, cyclobenzaprine.",,1
+4032_pos100,pos100,penicillin,0,,"```json {""allergies"": [""penicillin""]} ```",", Patient admits allergies to penicillin resulting in difficulty breathing.",,1
+3003_pos50,pos50,aspirin;statin,1,statin,"```json {""allergies"": [""aspirin"", ""altace""]} ```",", Aspirin and Altace caused cough, Lipitor and Pravachol at higher doses caused myalgias, Zetia caused myalgias., PHYSICAL EXAMINATION:,  VITAL SIGNS:  Pulse 82.  Blood pressure is 108/64.  Weight is 64.5 kg.  GENERAL:  He is in no apparent distress.  HEART:  Regular rate and rhythm.  No murmurs, ru",statin,1
+1357_pos50,pos50,ciprofloxacin;meperidine;sulfa,1,meperidine,"```json {""allergies"": [""Cipro"", ""sulfa"", ""Bactrim"", ""Demetrol""]} ```","Cipro, sulfa, Bactrim, and Demerol., GU:  Palpation of femurs do not cause pain, rotation of hips do not cause pain, and compression of the hips do not cause pain.,Neurologic:  Deep tendon reflexes are normal.,Extremities:  Pulses in lower extremities are normal.  Straight leg lifts are normal.",,0
+2167_pos50,pos50,nabumetone,1,nabumetone,"```json {""allergies"": [""RELFAX"", ""ITCHING""]} ```",HE IS ALLERGIC TO RELAFEN (ITCHING).,,1
+1_pos50,pos50,penicillin,0,,"```json {""allergies"": [""Penicillin""]} ```",He is allergic to Penicillin.,,1
+1370_pos50,pos50,sulfa,0,,"```json {""allergies"": [""Lamicil"", ""Equagesic"", ""Bactrim"", ""Dilatrate"", ""cyclobenzaprine""]} ```",", Lamisil, Equagesic, Bactrim, Dilatrate, cyclobenzaprine., Heart:  Regular rate and rhythm.,Extremities:  He has full range of motion of his shoulders but some tenderness to the trapezius over the right shoulder.  Back has limited range of motion.  He is nontender to his back.  Deep tendon reflexes",,1
+4179_pos50,pos50,penicillin,0,,"{""allergies"": [""Penicillin""]} ",", Penicillin., NECK:  Supple.  Trachea is midline.",,1

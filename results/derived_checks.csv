@@ -1,0 +1,36 @@
+check,value,detail
+A pos0 empty lists among omissions,14/26,
+A pos0 parse failures,3,3357;1478;3267
+A pos0 omissions with valid JSON only,23/119,19.3%
+A pos0 vs base excluding parse-failure notes,+16.4 pp,n=116 worse=22 better=3 p=0.00016
+"A pos0 vs base, hand-check corrected (post hoc)",+17.4 pp,"n=115 base=2 pos0=22 (19.1%, CI 13.0-27.3) worse=22 better=2 p=3.6e-05"
+"A pos0 vs base, notes not in sanity run (post hoc)",+15.7 pp,"n=89 base=5 pos0=19 (21.3%, CI 14.1-31.0) worse=17 better=3 p=0.0026"
+"B control listed, sulfa charts",6/26,23.1%
+B charts with test drug penicillin,29,
+B charts with test drug sulfa,26,
+B charts with test drug codeine,35,
+B charts with test drug aspirin,26,
+B resolved vs control,23 worse / 2 better,p=1.9e-05
+B re-listed charts inside active-listed,29/29,conditional rate 29/69 = 42.0% (post hoc)
+B parse failures,2,3266:resolved;3266:resolved_first
+"B resolved listed, sulfa charts (post hoc)",11/26,"42.3%, CI 25.5-61.1"
+"B resolved listed, codeine charts (post hoc)",10/35,"28.6%, CI 16.3-45.1"
+"B resolved listed, penicillin charts (post hoc)",5/29,"17.2%, CI 7.6-34.5"
+"B resolved listed, aspirin charts (post hoc)",3/26,"11.5%, CI 4.0-29.0"
+B base outputs with a non-empty list (post hoc),7/116,3266;2365;3268;3229;0;3525;1788
+B resolved listings inside guard-listed charts (post hoc),29/29,
+B control_tolerates listings inside guard-listed charts (post hoc),8/8,
+B resolved_first listings inside guard-listed charts (post hoc),12/12,
+B resolved_no_reaction listings inside guard-listed charts (post hoc),4/4,
+B Holm p (m=4) C1 resolved vs base,1.5e-08,
+B Holm p (m=4) M1 no_reaction vs resolved,1.8e-07,
+B Holm p (m=4) M2 first vs resolved,0.00044,
+B Holm p (m=4) C2 control vs base,0.0078,
+B Holm p if m=5 (conservative) C1 resolved vs base,1.9e-08,upper bound
+B Holm p if m=5 (conservative) C2 control vs base,0.039,upper bound
+B Holm p if m=5 (conservative) M1 no_reaction vs resolved,3e-07,upper bound
+B Holm p if m=5 (conservative) M2 first vs resolved,0.0011,upper bound
+Pilot all charts: false premise yes,5/40,
+Pilot all charts: neutral yes,4/40,both yes=3
+Pilot gated false premise CI,2/36,CI 1.5-18.1
+qwen A pos0 empty lists among omissions,40/42,

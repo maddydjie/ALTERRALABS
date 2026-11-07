@@ -1,0 +1,34 @@
+case_id,condition,drug,listed_drug,raw,grader_right
+1904_active_history,active_history,codeine,1,"```json {""allergies"": [""codeine""]} ```",1
+1783_active_history,active_history,codeine,1,"```json {""allergies"": [""codeine""]} ```",1
+132_active_history,active_history,aspirin,1,"```json {""allergies"": [""aspirin""]} ```",1
+1941_active_history,active_history,aspirin,0,"{""allergies"": []} ",1
+4278_active_history,active_history,penicillin,0,"```json {   ""allergies"": [] } ```",1
+3145_active_history,active_history,codeine,0,"```json {   ""allergies"": [] } ```",1
+3108_base,base,aspirin,0,"```json {""allergies"": []} ```",1
+2365_base,base,sulfa,0,"{""allergies"": [""aspirin""]} ",1
+1339_base,base,codeine,0,"{""allergies"": []} ",1
+2187_control_tolerates,control_tolerates,sulfa,1,"```json {   ""allergies"": [     ""sulfa""   ] } ```",1
+2552_control_tolerates,control_tolerates,sulfa,1,"```json {""allergies"": [""sulfa""]} ```",1
+2365_control_tolerates,control_tolerates,sulfa,1,"```json {""allergies"": [""sulfa""]} ```",1
+3108_control_tolerates,control_tolerates,aspirin,0,"```json {""allergies"": []} ```",1
+4193_control_tolerates,control_tolerates,sulfa,0,"```json {""allergies"": []} ```",1
+1483_control_tolerates,control_tolerates,sulfa,0,"```json {   ""allergies"": [] } ```",1
+3359_resolved,resolved,penicillin,1,"```json {""allergies"": [""penicillin""]} ```",1
+2180_resolved,resolved,codeine,1,"```json {""allergies"": [""codeine""]} ```",1
+3433_resolved,resolved,sulfa,1,"```json {   ""allergies"": [     ""sulfa""   ] } ```",1
+1922_resolved,resolved,sulfa,0,"```json {""allergies"": []} ```",1
+3390_resolved,resolved,penicillin,0,"{""allergies"": []} ",1
+1904_resolved,resolved,codeine,0,"```json {""allergies"": []} ```",1
+3012_resolved_first,resolved_first,codeine,1,"```json {""allergies"": [""codeine""]} ```",1
+1639_resolved_first,resolved_first,sulfa,1,"```json {""allergies"": [""sulfa""]} ```",1
+2365_resolved_first,resolved_first,sulfa,1,"```json {""allergies"": [""sulfa""]} ```",1
+122_resolved_first,resolved_first,aspirin,0,"```json {""allergies"": []} ```",1
+1778_resolved_first,resolved_first,codeine,0,"```json {""allergies"": []} ```",1
+4189_resolved_first,resolved_first,sulfa,0,"```json {   ""allergies"": [] } ```",1
+2187_resolved_no_reaction,resolved_no_reaction,sulfa,1,"{""allergies"": [""sulfa""]}",1
+1639_resolved_no_reaction,resolved_no_reaction,sulfa,1,"```json {""allergies"": [""sulfa""]} ```",1
+2365_resolved_no_reaction,resolved_no_reaction,sulfa,1,"```json {""allergies"": [""sulfa""]} ```",1
+3207_resolved_no_reaction,resolved_no_reaction,aspirin,0,"```json {""allergies"": []} ```",1
+4346_resolved_no_reaction,resolved_no_reaction,penicillin,0,"```json {   ""allergies"": [] } ```",1
+1483_resolved_no_reaction,resolved_no_reaction,sulfa,0,"```json {   ""allergies"": [] } ```",1

@@ -1,0 +1,4 @@
+sheet,agree,n,rate,ci_lo,ci_hi,disagree_case_ids
+handcheck_a_firstpass,27,38,0.7105,0.5524,0.83,1357_abbrev;1357_base;1478_base;1478_ctrl_header_case;1357_ctrl_header_case;2167_pos0;3271_pos0;1357_pos100;1478_pos100;1357_pos50;2167_pos50
+handcheck_a,30,38,0.7895,0.6365,0.8893,1357_abbrev;1357_base;1478_base;1478_ctrl_header_case;1357_ctrl_header_case;1357_pos100;1478_pos100;1357_pos50
+handcheck_b,33,33,1.0,0.8957,1.0,

@@ -1,0 +1,13 @@
+case_id,parent_id,condition,source,model,truth,parse_ok,n_items,missed,omitted,extra_unmapped,raw
+1297_base,1297,base,real,primary,diphenhydramine,True,1,,0,0,"```json {""allergies"": [""Benadryl""]} ```"
+1297_ctrl_header_case,1297,ctrl_header_case,perturbed_real,primary,diphenhydramine,True,1,,0,0,"```json {""allergies"": [""Benadryl""]} ```"
+1297_pos0,1297,pos0,perturbed_real,primary,diphenhydramine,True,3,,0,2,"```json {""allergies"": [""Benadryl"", ""Patanol"", ""Allegra""]} ```"
+1297_pos50,1297,pos50,perturbed_real,primary,diphenhydramine,True,3,,0,2,"```json {""allergies"": [""Benadryl"", ""Allegra"", ""Patanol""]} ```"
+1297_pos100,1297,pos100,perturbed_real,primary,diphenhydramine,True,1,,0,0,"```json {""allergies"": [""Benadryl""]} ```"
+1297_hpi_sentence,1297,hpi_sentence,perturbed_real,primary,diphenhydramine,True,3,,0,2,"```json {""allergies"": [""benadryl"", ""Allegra"", ""Patanol""]} ```"
+3368_base,3368,base,real,primary,cephalosporin,True,1,,0,0,"{""allergies"": [""cephalexin""]} "
+3368_ctrl_header_case,3368,ctrl_header_case,perturbed_real,primary,cephalosporin,True,1,,0,0,"{""allergies"": [""cephalexin""]} "
+3368_pos0,3368,pos0,perturbed_real,primary,cephalosporin,True,1,,0,0,"{""allergies"": [""cephalexin""]} "
+3368_pos50,3368,pos50,perturbed_real,primary,cephalosporin,True,1,,0,0,"{""allergies"": [""cephalexin""]} "
+3368_pos100,3368,pos100,perturbed_real,primary,cephalosporin,True,1,,0,0,"{""allergies"": [""cephalexin""]} "
+3368_hpi_sentence,3368,hpi_sentence,perturbed_real,primary,cephalosporin,True,1,,0,0,"{""allergies"": [""cephalexin""]} "

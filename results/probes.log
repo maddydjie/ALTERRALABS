@@ -1,0 +1,4 @@
+   probe  n  false_positive  rate  ci_lo  ci_hi  worse  better  mcnemar_p
+    base 60               0 0.000  0.000  0.060    NaN     NaN        NaN
+negation 60               4 0.067  0.026  0.159    4.0     0.0      0.125
+temporal 60              21 0.350  0.242  0.476   21.0     0.0      0.000

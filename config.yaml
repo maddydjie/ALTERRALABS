@@ -1,0 +1,27 @@
+# All pinned settings live here.
+ollama_url: http://localhost:11434
+seed: 42
+
+models:
+  primary:
+    ollama_name: medgemma:4b   # library build, Q4_K_M, digest 9fe4e9a6c9bd (not bit-identical to HF bf16)
+    hf_checkpoint: google/medgemma-4b-it
+    revision: ollama-digest-9fe4e9a6c9bd
+  comparison:
+    ollama_name: qwen3.5:9b
+    think: false        # thinking off for a fair, bounded-length comparison (document in write-up)
+    revision: ollama-digest-6488c96fa5fa   # Q4_K_M, 9.7B
+
+# Greedy decoding: temperature 0 + fixed seed
+generation:
+  temperature: 0
+  seed: 42
+  num_predict: 512
+  num_ctx: 8192
+
+paths:
+  raw: data/raw
+  cases: data/cases
+  cache: data/cache
+  results: results
+  figures: figures
